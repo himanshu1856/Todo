@@ -22,7 +22,7 @@ function createTodo(todo){
     todoDiv.classList.add('todo-item')
 
     let pTag = document.createElement('p')
-    pTag.classList.add('todo-input')
+    pTag.classList.add('input-text')
     pTag.textContent = todo
 
     let deleteBtn = document.createElement('button')
